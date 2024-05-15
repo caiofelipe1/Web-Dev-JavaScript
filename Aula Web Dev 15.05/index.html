@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--APRENDENDO A USAR DOM -->
+    <!--
+    <h1>Eventos JavaScript HTML</h1>
+    <h2>O atributo onclick</h2>
+    <p>Clique no botão para exibir a data.</p>
+    <button onclick="mostrarData()">O tempo é?</button>
+    <script>
+        function mostrarData() {
+            document.getElementById("data").innerHTML = Date();
+        }
+    </script>
+    <p id="data"></p>
+    -->
+
+    
+    <!-- Encontrando elementos HTML-->
+
+    <!-- Encontrando elementos HTML por id
+    <h2>JavaScript HTML DOM</h2>
+    <p id="intro">Encontrando elementos HTML por ID</p>
+    <p>Este exemplo demonstra o método <b>getElementsById</b> </p>
+    <p id="demo"></p>
+    <script>
+        const element = document.getElementById("intro");
+        document.getElementById("demo").innerHTML =
+            "O texto do parágrafo de introdução é: " + element.innerHTML;
+    </script>-->
+
+
+    <!-- Encontrando elementos HTML por nome de tag
+    <h2>JavaScript HTML DOM</h2>
+    <p>Encontrando elementos HTML por nome de tag.</p>
+    <p>Este exemplo demonstra o método <b>getElementsByTagName</b></p>
+
+    <p id="demo"></p>
+    <script>
+        const element = document.getElementsByTagName("p");
+        document.getElementById("demo").innerHTML = 'O texto no primeiro parágrafo (índice 0) é: ' + element[0].innerHTML;
+    </script>-->
+
+
+    <!--Encontrando elementos HTML por nome de classe
+    <h2>JavaScript HTML DOM</h2>
+    <p> Encontrando elementos HTML por nome de classe. </p>
+    <p class="intro"> Olá Mundo! </p>
+    <p class="intro"> Este exemplo demonstra o método <b>getElementsByClassName</b> </p>
+    <p id="demo"></p>
+    <script>
+        const x = document.getElementsByClassName("intro");
+        document.getElementById("demo").innerHTML = 
+        O primeiro parágrafo (índice 0) com class="intro" é: + x[0].innerHTML;
+    </script>-->
+    <!-- propriedade mexer com valor, metodo ações e objeto manda chuva -->
+
+
+    <!--
+    Eventos JavaScript HTML DOM 
+    <h1> Eventos JavaScript HTML </h1>
+    <h2> O atributo onclick </h2>
+    <h2 onclick="this.innerHTML='Ooops!'"> O atributo onclick
+    </h2>
+    -->
+
+    <!--
+    Atribuir eventos usando o HTML DOM
+    <h1> Eventos JavaScript HTML </h1>
+    <h2> Os eventos onclick </h2>
+    <p> Clique em "Experimentar" para executar a função displayDate().</p>
+    <button id="meuBotao">Tente</button>
+
+    <p id="demo"></p>
+    <script>
+        document.getElementById("meuBotao").onclick = displayDate;
+        function displayDate() {
+            document.getElementById("demo").innerHTML = Date();
+        }
+    </script>
+    -->
+
+</body>
+
+</html>
+<section src="main.js"></section>
